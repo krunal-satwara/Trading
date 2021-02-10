@@ -1,0 +1,214 @@
+2020-07-04 14:08:32.209  INFO [Trade-Withdrawal-Service,,,,]-INFO -TradeWithdrawalServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 14:08:41.347  INFO [Trade-Withdrawal-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 14:08:41.476  INFO [Trade-Withdrawal-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7236}] to localhost:27017
+2020-07-04 14:08:41.490  INFO [Trade-Withdrawal-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7503100}
+2020-07-04 14:08:43.691  INFO [Trade-Withdrawal-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 14:08:43.781  WARN [Trade-Withdrawal-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 14:08:43.782  INFO [Trade-Withdrawal-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 14:08:43.793  WARN [Trade-Withdrawal-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 14:08:43.794  INFO [Trade-Withdrawal-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 14:08:50.761  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 14:08:51.381  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 14:08:51.383  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 14:08:51.981  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 14:08:51.982  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 14:08:52.300  INFO [Trade-Withdrawal-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 14:08:52.613  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 14:08:52.614  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 14:08:52.615  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 14:08:52.615  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 14:08:52.616  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 14:08:52.616  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 14:08:52.616  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 14:08:52.917  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 14:08:52.922  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 14:08:52.926  INFO [Trade-Withdrawal-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 14:08:52.931  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593851932929 with initial instances count: 7
+2020-07-04 14:08:52.946  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593851932946, current=UP, previous=STARTING]
+2020-07-04 14:08:52.950  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0: registering service...
+2020-07-04 14:08:53.003  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0 - registration status: 204
+2020-07-04 14:08:53.554  INFO [Trade-Withdrawal-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 14:08:53.782  INFO [Trade-Withdrawal-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 14:08:53.930  INFO [Trade-Withdrawal-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 14:08:54.212  INFO [Trade-Withdrawal-Service,,,,]-INFO -TradeWithdrawalServiceApplicationIntTests-[Line:61]-Started TradeWithdrawalServiceApplicationIntTests in 24.999 seconds (JVM running for 28.841)
+2020-07-04 14:08:55.768  WARN [Trade-Withdrawal-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593851935768, current=DOWN, previous=UP]
+2020-07-04 14:08:55.772  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0: registering service...
+2020-07-04 14:08:55.792  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0 - registration status: 204
+2020-07-04 14:08:57.149  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 14:09:00.153  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 14:09:00.159  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0 - deregister  status: 200
+2020-07-04 14:09:00.178  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 14:10:01.827  INFO [Trade-Withdrawal-Service,,,,]-INFO -TradeWithdrawalServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 14:10:08.709  INFO [Trade-Withdrawal-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 14:10:08.852  INFO [Trade-Withdrawal-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7244}] to localhost:27017
+2020-07-04 14:10:08.868  INFO [Trade-Withdrawal-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7781800}
+2020-07-04 14:10:10.892  INFO [Trade-Withdrawal-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 14:10:11.004  WARN [Trade-Withdrawal-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 14:10:11.005  INFO [Trade-Withdrawal-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 14:10:11.016  WARN [Trade-Withdrawal-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 14:10:11.017  INFO [Trade-Withdrawal-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 14:10:15.959  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 14:10:16.070  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 14:10:16.071  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 14:10:16.325  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 14:10:16.326  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 14:10:16.630  INFO [Trade-Withdrawal-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 14:10:16.986  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 14:10:16.987  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 14:10:16.987  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 14:10:16.988  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 14:10:16.989  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 14:10:16.989  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 14:10:16.990  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 14:10:17.288  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 14:10:17.293  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 14:10:17.299  INFO [Trade-Withdrawal-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 14:10:17.305  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593852017303 with initial instances count: 7
+2020-07-04 14:10:17.329  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593852017329, current=UP, previous=STARTING]
+2020-07-04 14:10:17.333  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0: registering service...
+2020-07-04 14:10:17.395  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0 - registration status: 204
+2020-07-04 14:10:17.998  INFO [Trade-Withdrawal-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 14:10:18.026  INFO [Trade-Withdrawal-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 14:10:18.098  INFO [Trade-Withdrawal-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 14:10:18.415  INFO [Trade-Withdrawal-Service,,,,]-INFO -TradeWithdrawalServiceApplicationIntTests-[Line:61]-Started TradeWithdrawalServiceApplicationIntTests in 19.921 seconds (JVM running for 22.374)
+2020-07-04 14:10:19.103  INFO [Trade-Withdrawal-Service,992fe5ddd61c863a,,992fe5ddd61c863a,true]-INFO -TradeWithdrawalServiceApplication-[Line:26]-Request For Create Withdrawal =WithdrawalBean(withdrawalId=0, accountId=1, customerId=1, createTime=cratetime, executeTime=execute time, amount=500, bankName=sbi, bankCode=6666, status=1, remarks=remark, transactionType=type)
+2020-07-04 14:10:19.228  INFO [Trade-Withdrawal-Service,992fe5ddd61c863a,,992fe5ddd61c863a,true]-INFO -WithdrawalServiceImpl-[Line:53]-Request For Check Account Status
+2020-07-04 14:10:19.417  INFO [Trade-Withdrawal-Service,992fe5ddd61c863a,,992fe5ddd61c863a,true]-INFO -WithdrawalServiceImpl-[Line:56]-Account Response ={"statusCode":2005,"message":"Successfully Received Account Details","object":{"accountId":1,"customerId":1,"accountNumber":78879,"accountName":"krunal","accountType":0,"accountBalance":1880,"accountStatus":1,"accountRemarks":"string"}}
+2020-07-04 14:10:19.433  INFO [Trade-Withdrawal-Service,992fe5ddd61c863a,,992fe5ddd61c863a,true]-INFO -WithdrawalServiceImpl-[Line:73]-Request For Get Sequence For Withdrawal
+2020-07-04 14:10:19.964  INFO [Trade-Withdrawal-Service,992fe5ddd61c863a,,992fe5ddd61c863a,true]-INFO -WithdrawalServiceImpl-[Line:76]-Response From Sequence For Withdrawal Id = 1
+2020-07-04 14:10:20.354  INFO [Trade-Withdrawal-Service,992fe5ddd61c863a,,992fe5ddd61c863a,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7245}] to localhost:27017
+2020-07-04 14:10:20.915  WARN [Trade-Withdrawal-Service,,,,]-WARN -AsyncReporter$BoundedAsyncReporter-[Line:310]-Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2020-07-04 14:10:20.922  WARN [Trade-Withdrawal-Service,,,,]-WARN -AsyncReporter$BoundedAsyncReporter-[Line:317]-Dropped 2 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748)
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132)
+	at zipkin2.Call$Base.execute(Call.java:380)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739)
+	... 9 common frames omitted
+2020-07-04 14:10:21.475  INFO [Trade-Withdrawal-Service,992fe5ddd61c863a,,992fe5ddd61c863a,true]-INFO -WithdrawalServiceImpl-[Line:79]-Response For Create Withdrawal =Withdrawal(withdrawalId=1, accountId=1, customerId=1, createTime=cratetime, executeTime=execute time, amount=500, bankName=sbi, bankCode=6666, status=1, remarks=remark, transactionType=type)
+2020-07-04 14:10:21.477  INFO [Trade-Withdrawal-Service,992fe5ddd61c863a,,992fe5ddd61c863a,true]-INFO -WithdrawalServiceImpl-[Line:90]-Request For Update Deposit Transfer History
+2020-07-04 14:10:24.773  WARN [Trade-Withdrawal-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593852024773, current=DOWN, previous=UP]
+2020-07-04 14:10:24.787  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0: registering service...
+2020-07-04 14:10:24.832  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0 - registration status: 204
+2020-07-04 14:10:25.080  INFO [Trade-Withdrawal-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7245}] to localhost:27017 because the pool has been closed.
+2020-07-04 14:10:25.434  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 14:10:28.442  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 14:10:28.457  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0 - deregister  status: 200
+2020-07-04 14:10:28.528  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 14:13:13.663  INFO [Trade-Withdrawal-Service,,,,]-INFO -TradeWithdrawalServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 14:13:20.375  INFO [Trade-Withdrawal-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 14:13:20.497  INFO [Trade-Withdrawal-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7264}] to localhost:27017
+2020-07-04 14:13:20.508  INFO [Trade-Withdrawal-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6403000}
+2020-07-04 14:13:22.385  INFO [Trade-Withdrawal-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 14:13:22.474  WARN [Trade-Withdrawal-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 14:13:22.475  INFO [Trade-Withdrawal-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 14:13:22.485  WARN [Trade-Withdrawal-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 14:13:22.485  INFO [Trade-Withdrawal-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 14:13:27.095  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 14:13:27.186  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 14:13:27.187  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 14:13:27.445  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 14:13:27.446  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 14:13:27.774  INFO [Trade-Withdrawal-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 14:13:28.109  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 14:13:28.110  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 14:13:28.111  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 14:13:28.112  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 14:13:28.113  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 14:13:28.113  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 14:13:28.113  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 14:13:28.435  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 14:13:28.440  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 14:13:28.446  INFO [Trade-Withdrawal-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 14:13:28.452  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593852208450 with initial instances count: 7
+2020-07-04 14:13:28.471  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593852208471, current=UP, previous=STARTING]
+2020-07-04 14:13:28.477  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0: registering service...
+2020-07-04 14:13:28.534  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0 - registration status: 204
+2020-07-04 14:13:29.119  INFO [Trade-Withdrawal-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 14:13:29.143  INFO [Trade-Withdrawal-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 14:13:29.202  INFO [Trade-Withdrawal-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 14:13:29.506  INFO [Trade-Withdrawal-Service,,,,]-INFO -TradeWithdrawalServiceApplicationIntTests-[Line:61]-Started TradeWithdrawalServiceApplicationIntTests in 18.307 seconds (JVM running for 20.641)
+2020-07-04 14:13:30.018  INFO [Trade-Withdrawal-Service,2bdedfe867b39a84,,2bdedfe867b39a84,true]-INFO -TradeWithdrawalServiceApplication-[Line:32]-Request For Get Withdrawal =1
+2020-07-04 14:13:30.209  INFO [Trade-Withdrawal-Service,2bdedfe867b39a84,,2bdedfe867b39a84,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7265}] to localhost:27017
+2020-07-04 14:13:30.337  INFO [Trade-Withdrawal-Service,2bdedfe867b39a84,,2bdedfe867b39a84,true]-INFO -WithdrawalServiceImpl-[Line:105]-Response For Get Withdrawal =Optional[Withdrawal(withdrawalId=1, accountId=1, customerId=1, createTime=cratetime, executeTime=execute time, amount=500, bankName=sbi, bankCode=6666, status=1, remarks=remark, transactionType=type)]
+2020-07-04 14:13:30.424  WARN [Trade-Withdrawal-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593852210424, current=DOWN, previous=UP]
+2020-07-04 14:13:30.425  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0: registering service...
+2020-07-04 14:13:30.432  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0 - registration status: 204
+2020-07-04 14:13:30.813  INFO [Trade-Withdrawal-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7265}] to localhost:27017 because the pool has been closed.
+2020-07-04 14:13:31.821  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 14:13:34.829  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 14:13:34.841  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0 - deregister  status: 200
+2020-07-04 14:13:34.920  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 14:14:43.717  INFO [Trade-Withdrawal-Service,,,,]-INFO -TradeWithdrawalServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 14:14:50.026  INFO [Trade-Withdrawal-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 14:14:50.241  INFO [Trade-Withdrawal-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7269}] to localhost:27017
+2020-07-04 14:14:50.260  INFO [Trade-Withdrawal-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=13987000}
+2020-07-04 14:14:52.405  INFO [Trade-Withdrawal-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 14:14:52.494  WARN [Trade-Withdrawal-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 14:14:52.494  INFO [Trade-Withdrawal-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 14:14:52.504  WARN [Trade-Withdrawal-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 14:14:52.505  INFO [Trade-Withdrawal-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 14:14:57.121  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 14:14:57.224  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 14:14:57.225  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 14:14:57.478  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 14:14:57.479  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 14:14:57.816  INFO [Trade-Withdrawal-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 14:14:58.217  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 14:14:58.218  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 14:14:58.219  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 14:14:58.220  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 14:14:58.220  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 14:14:58.221  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 14:14:58.222  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 14:14:58.557  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 14:14:58.562  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 14:14:58.566  INFO [Trade-Withdrawal-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 14:14:58.571  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593852298570 with initial instances count: 7
+2020-07-04 14:14:58.592  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593852298592, current=UP, previous=STARTING]
+2020-07-04 14:14:58.597  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0: registering service...
+2020-07-04 14:14:58.662  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0 - registration status: 204
+2020-07-04 14:14:59.353  INFO [Trade-Withdrawal-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 14:14:59.385  INFO [Trade-Withdrawal-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 14:14:59.438  INFO [Trade-Withdrawal-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 14:14:59.706  INFO [Trade-Withdrawal-Service,,,,]-INFO -TradeWithdrawalServiceApplicationIntTests-[Line:61]-Started TradeWithdrawalServiceApplicationIntTests in 18.746 seconds (JVM running for 21.022)
+2020-07-04 14:15:00.169  INFO [Trade-Withdrawal-Service,3bc94b292d6306e5,,3bc94b292d6306e5,true]-INFO -TradeWithdrawalServiceApplication-[Line:38]-Request For List Of Withdrawal
+2020-07-04 14:15:00.260  INFO [Trade-Withdrawal-Service,3bc94b292d6306e5,,3bc94b292d6306e5,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7270}] to localhost:27017
+2020-07-04 14:15:00.351  INFO [Trade-Withdrawal-Service,3bc94b292d6306e5,,3bc94b292d6306e5,true]-INFO -WithdrawalServiceImpl-[Line:117]-Response For List Of Withdrawals =[Withdrawal(withdrawalId=1, accountId=1, customerId=1, createTime=cratetime, executeTime=execute time, amount=500, bankName=sbi, bankCode=6666, status=1, remarks=remark, transactionType=type)]
+2020-07-04 14:15:00.460  WARN [Trade-Withdrawal-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593852300460, current=DOWN, previous=UP]
+2020-07-04 14:15:00.461  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0: registering service...
+2020-07-04 14:15:00.468  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0 - registration status: 204
+2020-07-04 14:15:00.854  INFO [Trade-Withdrawal-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7270}] to localhost:27017 because the pool has been closed.
+2020-07-04 14:15:01.862  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 14:15:04.886  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 14:15:04.912  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-WITHDRAWAL-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Withdrawal-Service:0 - deregister  status: 200
+2020-07-04 14:15:05.049  INFO [Trade-Withdrawal-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient

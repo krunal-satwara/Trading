@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration scan="true">
+    <property name="DEV_HOME" value="logs" />
+    <springProperty scope="context" name="springAppName" source="spring.application.name"/>
+    <timestamp key="timeFormat" datePattern="yyyyMMdd'T'HHmmss" timeReference="contextBirth" />
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %5p [${springAppName:-},%X{X-B3-TraceId:-},,%X{X-B3-SpanId:-},%X{X-Span-Export:-}]-%-5level-%logger{0}-[Line:%line]-%m%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${DEV_HOME}/LogFile</file>
+        <append>true</append>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${DEV_HOME}/LogFile-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>100MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %5p [${springAppName:-},%X{X-B3-TraceId:-},,%X{X-B3-SpanId:-},%X{X-Span-Export:-}]-%-5level-%logger{0}-[Line:%line]-%m%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="org.springframework" level="ERROR" />
+    <logger name="org.hibernate" level="ERROR" />
+
+    <logger name="org.apache" level="OFF" />
+    <logger name="ch.qos.logback" level="OFF" />
+
+    <logger name="com.trade.depositservice" level="trace"/>
+
+    <root level="DEBUG">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="ROLLING" />
+    </root>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="ROLLING" />
+    </root>
+</configuration>

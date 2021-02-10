@@ -1,0 +1,384 @@
+2020-07-04 09:29:22.557  INFO [Trade-Deposit-Service,,,,]-INFO -TradeDepositServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 09:29:28.595  INFO [Trade-Deposit-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 09:29:28.721  INFO [Trade-Deposit-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7107}] to localhost:27017
+2020-07-04 09:29:28.771  INFO [Trade-Deposit-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=44043800}
+2020-07-04 09:29:30.509  INFO [Trade-Deposit-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 09:29:30.606  WARN [Trade-Deposit-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:29:30.607  INFO [Trade-Deposit-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:29:30.616  WARN [Trade-Deposit-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:29:30.617  INFO [Trade-Deposit-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:29:35.427  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 09:29:35.532  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 09:29:35.533  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 09:29:35.758  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 09:29:35.759  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 09:29:36.011  INFO [Trade-Deposit-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 09:29:36.341  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 09:29:36.342  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 09:29:36.343  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 09:29:36.343  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 09:29:36.344  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 09:29:36.344  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 09:29:36.344  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 09:29:36.599  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 09:29:36.602  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 09:29:36.606  INFO [Trade-Deposit-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 09:29:36.613  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593835176610 with initial instances count: 7
+2020-07-04 09:29:36.635  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593835176635, current=UP, previous=STARTING]
+2020-07-04 09:29:36.643  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0: registering service...
+2020-07-04 09:29:36.709  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0 - registration status: 204
+2020-07-04 09:29:37.226  INFO [Trade-Deposit-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 09:29:37.251  INFO [Trade-Deposit-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 09:29:37.305  INFO [Trade-Deposit-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 09:29:37.554  INFO [Trade-Deposit-Service,,,,]-INFO -TradeDepositServiceApplicationIntTests-[Line:61]-Started TradeDepositServiceApplicationIntTests in 18.098 seconds (JVM running for 20.458)
+2020-07-04 09:29:38.172  INFO [Trade-Deposit-Service,76d29b7333512707,,76d29b7333512707,true]-INFO -DepositController-[Line:26]-Request For Create Deposit =DepositBean(depositId=0, accountId=1, customerId=1, amount=500, transactionType=saving, createTime=createtime, executeTIme=executetime, status=1, remarks=remark)
+2020-07-04 09:29:38.258  INFO [Trade-Deposit-Service,76d29b7333512707,,76d29b7333512707,true]-INFO -DepositServiceImpl-[Line:51]-Request For Check Account Status
+2020-07-04 09:29:43.940  INFO [Trade-Deposit-Service,76d29b7333512707,,76d29b7333512707,true]-INFO -DepositServiceImpl-[Line:54]-Account Response ={"statusCode":2005,"message":"Successfully Received Account Details","object":{"accountId":1,"customerId":1,"accountNumber":78879,"accountName":"krunal","accountType":0,"accountBalance":880,"accountStatus":1,"accountRemarks":"string"}}
+2020-07-04 09:29:43.952  INFO [Trade-Deposit-Service,76d29b7333512707,,76d29b7333512707,true]-INFO -DepositServiceImpl-[Line:71]-Request For Get Sequence For Deposit
+2020-07-04 09:29:44.030  INFO [Trade-Deposit-Service,76d29b7333512707,,76d29b7333512707,true]-INFO -DepositServiceImpl-[Line:74]-Response From Sequence For Deposit Id = 3
+2020-07-04 09:29:44.147  INFO [Trade-Deposit-Service,76d29b7333512707,,76d29b7333512707,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7108}] to localhost:27017
+2020-07-04 09:29:44.198  INFO [Trade-Deposit-Service,76d29b7333512707,,76d29b7333512707,true]-INFO -DepositServiceImpl-[Line:77]-Response For Save Deposit =Deposit(depositId=3, accountId=1, customerId=1, amount=500, transactionType=saving, createTime=createtime, executeTIme=executetime, status=1, remarks=remark)
+2020-07-04 09:29:44.200  INFO [Trade-Deposit-Service,76d29b7333512707,,76d29b7333512707,true]-INFO -DepositServiceImpl-[Line:86]-Request For Update Deposit Transfer History
+2020-07-04 09:29:45.429  WARN [Trade-Deposit-Service,,,,]-WARN -AsyncReporter$BoundedAsyncReporter-[Line:310]-Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2020-07-04 09:29:45.436  WARN [Trade-Deposit-Service,,,,]-WARN -AsyncReporter$BoundedAsyncReporter-[Line:317]-Dropped 2 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748)
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132)
+	at zipkin2.Call$Base.execute(Call.java:380)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739)
+	... 9 common frames omitted
+2020-07-04 09:29:59.664  WARN [Trade-Deposit-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593835199664, current=DOWN, previous=UP]
+2020-07-04 09:29:59.665  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0: registering service...
+2020-07-04 09:29:59.669  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0 - registration status: 204
+2020-07-04 09:29:59.926  INFO [Trade-Deposit-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7108}] to localhost:27017 because the pool has been closed.
+2020-07-04 09:29:59.952  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 09:30:02.961  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 09:30:02.973  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0 - deregister  status: 200
+2020-07-04 09:30:02.998  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 09:34:13.241  INFO [Trade-Deposit-Service,,,,]-INFO -TradeDepositServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 09:34:19.304  INFO [Trade-Deposit-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 09:34:19.459  INFO [Trade-Deposit-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7122}] to localhost:27017
+2020-07-04 09:34:19.471  INFO [Trade-Deposit-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6377400}
+2020-07-04 09:34:21.258  INFO [Trade-Deposit-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 09:34:21.353  WARN [Trade-Deposit-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:34:21.353  INFO [Trade-Deposit-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:34:21.363  WARN [Trade-Deposit-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:34:21.364  INFO [Trade-Deposit-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:34:26.265  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 09:34:26.363  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 09:34:26.364  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 09:34:26.629  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 09:34:26.630  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 09:34:26.909  INFO [Trade-Deposit-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 09:34:27.279  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 09:34:27.280  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 09:34:27.281  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 09:34:27.281  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 09:34:27.282  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 09:34:27.282  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 09:34:27.283  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 09:34:27.686  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 09:34:27.694  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 09:34:27.699  INFO [Trade-Deposit-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 09:34:27.706  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593835467705 with initial instances count: 7
+2020-07-04 09:34:27.737  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593835467737, current=UP, previous=STARTING]
+2020-07-04 09:34:27.743  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0: registering service...
+2020-07-04 09:34:27.818  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0 - registration status: 204
+2020-07-04 09:34:28.460  INFO [Trade-Deposit-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 09:34:28.489  INFO [Trade-Deposit-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 09:34:28.555  INFO [Trade-Deposit-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 09:34:28.850  INFO [Trade-Deposit-Service,,,,]-INFO -TradeDepositServiceApplicationIntTests-[Line:61]-Started TradeDepositServiceApplicationIntTests in 19.441 seconds (JVM running for 21.51)
+2020-07-04 09:34:30.066  WARN [Trade-Deposit-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593835470066, current=DOWN, previous=UP]
+2020-07-04 09:34:30.066  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0: registering service...
+2020-07-04 09:34:30.082  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0 - registration status: 204
+2020-07-04 09:34:31.081  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 09:34:34.084  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 09:34:34.091  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0 - deregister  status: 200
+2020-07-04 09:34:34.117  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 09:35:42.749  INFO [Trade-Deposit-Service,,,,]-INFO -TradeDepositServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 09:35:49.308  INFO [Trade-Deposit-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 09:35:49.450  INFO [Trade-Deposit-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7126}] to localhost:27017
+2020-07-04 09:35:49.483  INFO [Trade-Deposit-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=27209200}
+2020-07-04 09:35:52.251  INFO [Trade-Deposit-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 09:35:52.340  WARN [Trade-Deposit-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:35:52.341  INFO [Trade-Deposit-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:35:52.351  WARN [Trade-Deposit-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:35:52.351  INFO [Trade-Deposit-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:35:59.034  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 09:35:59.150  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 09:35:59.151  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 09:35:59.370  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 09:35:59.371  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 09:35:59.720  INFO [Trade-Deposit-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 09:36:00.375  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 09:36:00.376  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 09:36:00.377  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 09:36:00.381  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 09:36:00.381  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 09:36:00.382  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 09:36:00.382  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 09:36:00.743  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 09:36:00.747  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 09:36:00.753  INFO [Trade-Deposit-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 09:36:00.760  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593835560759 with initial instances count: 7
+2020-07-04 09:36:00.782  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593835560782, current=UP, previous=STARTING]
+2020-07-04 09:36:00.786  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0: registering service...
+2020-07-04 09:36:00.874  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0 - registration status: 204
+2020-07-04 09:36:01.513  INFO [Trade-Deposit-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 09:36:01.541  INFO [Trade-Deposit-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 09:36:01.891  INFO [Trade-Deposit-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 09:36:02.404  INFO [Trade-Deposit-Service,,,,]-INFO -TradeDepositServiceApplicationIntTests-[Line:61]-Started TradeDepositServiceApplicationIntTests in 23.251 seconds (JVM running for 25.249)
+2020-07-04 09:36:03.331  WARN [Trade-Deposit-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593835563331, current=DOWN, previous=UP]
+2020-07-04 09:36:03.340  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0: registering service...
+2020-07-04 09:36:03.347  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0 - registration status: 204
+2020-07-04 09:36:04.683  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 09:36:07.688  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 09:36:07.695  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0 - deregister  status: 200
+2020-07-04 09:36:07.717  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 09:37:36.897  INFO [Trade-Deposit-Service,,,,]-INFO -TradeDepositServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 09:37:46.068  INFO [Trade-Deposit-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 09:37:46.189  INFO [Trade-Deposit-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7131}] to localhost:27017
+2020-07-04 09:37:46.230  INFO [Trade-Deposit-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=37145900}
+2020-07-04 09:37:48.038  INFO [Trade-Deposit-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 09:37:48.127  WARN [Trade-Deposit-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:37:48.127  INFO [Trade-Deposit-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:37:48.137  WARN [Trade-Deposit-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:37:48.138  INFO [Trade-Deposit-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:37:53.459  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 09:37:53.580  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 09:37:53.581  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 09:37:53.868  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 09:37:53.869  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 09:37:54.175  INFO [Trade-Deposit-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 09:37:54.551  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 09:37:54.552  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 09:37:54.552  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 09:37:54.554  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 09:37:54.555  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 09:37:54.556  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 09:37:54.556  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 09:37:54.851  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 09:37:54.856  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 09:37:54.861  INFO [Trade-Deposit-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 09:37:54.867  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593835674865 with initial instances count: 7
+2020-07-04 09:37:54.886  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593835674886, current=UP, previous=STARTING]
+2020-07-04 09:37:54.890  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0: registering service...
+2020-07-04 09:37:54.958  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0 - registration status: 204
+2020-07-04 09:37:55.561  INFO [Trade-Deposit-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 09:37:55.591  INFO [Trade-Deposit-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 09:37:55.661  INFO [Trade-Deposit-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 09:37:55.942  INFO [Trade-Deposit-Service,,,,]-INFO -TradeDepositServiceApplicationIntTests-[Line:61]-Started TradeDepositServiceApplicationIntTests in 22.975 seconds (JVM running for 26.113)
+2020-07-04 09:37:56.443  INFO [Trade-Deposit-Service,b1058933a7222e0a,,b1058933a7222e0a,true]-INFO -DepositController-[Line:32]-Request For Get Deposit =3
+2020-07-04 09:37:56.536  INFO [Trade-Deposit-Service,b1058933a7222e0a,,b1058933a7222e0a,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7132}] to localhost:27017
+2020-07-04 09:37:56.615  INFO [Trade-Deposit-Service,b1058933a7222e0a,,b1058933a7222e0a,true]-INFO -DepositServiceImpl-[Line:125]-Get Deposit =Optional[Deposit(depositId=3, accountId=1, customerId=1, amount=500, transactionType=saving, createTime=createtime, executeTIme=executetime, status=1, remarks=remark)]
+2020-07-04 09:37:56.713  WARN [Trade-Deposit-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593835676713, current=DOWN, previous=UP]
+2020-07-04 09:37:56.714  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0: registering service...
+2020-07-04 09:37:56.719  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0 - registration status: 204
+2020-07-04 09:37:57.118  INFO [Trade-Deposit-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7132}] to localhost:27017 because the pool has been closed.
+2020-07-04 09:37:58.129  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 09:38:01.137  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 09:38:01.145  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0 - deregister  status: 200
+2020-07-04 09:38:01.165  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 09:38:17.035  INFO [Trade-Deposit-Service,,,,]-INFO -TradeDepositServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 09:38:23.862  INFO [Trade-Deposit-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 09:38:23.998  INFO [Trade-Deposit-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7134}] to localhost:27017
+2020-07-04 09:38:24.184  INFO [Trade-Deposit-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22442800}
+2020-07-04 09:38:26.844  INFO [Trade-Deposit-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 09:38:26.945  WARN [Trade-Deposit-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:38:26.945  INFO [Trade-Deposit-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:38:26.957  WARN [Trade-Deposit-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:38:26.957  INFO [Trade-Deposit-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:38:31.977  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 09:38:32.103  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 09:38:32.104  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 09:38:32.594  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 09:38:32.595  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 09:38:33.833  INFO [Trade-Deposit-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 09:38:34.594  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 09:38:34.596  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 09:38:34.596  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 09:38:34.597  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 09:38:34.598  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 09:38:34.599  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 09:38:34.600  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 09:38:34.965  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 09:38:34.969  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 09:38:34.973  INFO [Trade-Deposit-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 09:38:34.979  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593835714977 with initial instances count: 7
+2020-07-04 09:38:35.000  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593835715000, current=UP, previous=STARTING]
+2020-07-04 09:38:35.005  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0: registering service...
+2020-07-04 09:38:35.068  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0 - registration status: 204
+2020-07-04 09:38:35.720  INFO [Trade-Deposit-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 09:38:35.744  INFO [Trade-Deposit-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 09:38:35.813  INFO [Trade-Deposit-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 09:38:36.099  INFO [Trade-Deposit-Service,,,,]-INFO -TradeDepositServiceApplicationIntTests-[Line:61]-Started TradeDepositServiceApplicationIntTests in 22.463 seconds (JVM running for 26.121)
+2020-07-04 09:38:36.584  INFO [Trade-Deposit-Service,46a02966e51b4cae,,46a02966e51b4cae,true]-INFO -DepositController-[Line:38]-Request For Get List Of Deposits
+2020-07-04 09:38:36.672  INFO [Trade-Deposit-Service,46a02966e51b4cae,,46a02966e51b4cae,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7135}] to localhost:27017
+2020-07-04 09:38:36.759  INFO [Trade-Deposit-Service,46a02966e51b4cae,,46a02966e51b4cae,true]-INFO -DepositServiceImpl-[Line:137]-Response For List Of Deposits =[Deposit(depositId=1, accountId=1, customerId=1, amount=400, transactionType=string, createTime=string, executeTIme=string, status=0, remarks=string), Deposit(depositId=2, accountId=1, customerId=1, amount=400, transactionType=string, createTime=string, executeTIme=string, status=0, remarks=string), Deposit(depositId=3, accountId=1, customerId=1, amount=500, transactionType=saving, createTime=createtime, executeTIme=executetime, status=1, remarks=remark)]
+2020-07-04 09:38:36.885  WARN [Trade-Deposit-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593835716885, current=DOWN, previous=UP]
+2020-07-04 09:38:36.886  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0: registering service...
+2020-07-04 09:38:36.892  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0 - registration status: 204
+2020-07-04 09:38:37.322  INFO [Trade-Deposit-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7135}] to localhost:27017 because the pool has been closed.
+2020-07-04 09:38:38.332  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 09:38:41.341  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 09:38:41.374  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/host.docker.internal:Trade-Deposit-Service:0 - deregister  status: 200
+2020-07-04 09:38:41.398  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 13:32:55.931  INFO [Trade-Deposit-Service,,,,]-INFO -TradeDepositServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 13:33:05.740  INFO [Trade-Deposit-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 13:33:05.915  INFO [Trade-Deposit-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7152}] to localhost:27017
+2020-07-04 13:33:05.930  INFO [Trade-Deposit-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7657100}
+2020-07-04 13:33:08.507  INFO [Trade-Deposit-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 13:33:08.668  WARN [Trade-Deposit-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 13:33:08.669  INFO [Trade-Deposit-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 13:33:08.678  WARN [Trade-Deposit-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 13:33:08.679  INFO [Trade-Deposit-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 13:33:14.148  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 13:33:14.282  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 13:33:14.282  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 13:33:14.598  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 13:33:14.599  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 13:33:14.937  INFO [Trade-Deposit-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 13:33:15.347  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 13:33:15.348  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 13:33:15.349  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 13:33:15.349  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 13:33:15.349  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 13:33:15.350  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 13:33:15.350  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 13:33:15.724  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 13:33:15.728  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 13:33:15.733  INFO [Trade-Deposit-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 13:33:15.737  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593849795736 with initial instances count: 7
+2020-07-04 13:33:15.753  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593849795753, current=UP, previous=STARTING]
+2020-07-04 13:33:15.756  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Deposit-Service:0: registering service...
+2020-07-04 13:33:15.809  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Deposit-Service:0 - registration status: 204
+2020-07-04 13:33:16.389  INFO [Trade-Deposit-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 13:33:16.478  INFO [Trade-Deposit-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 13:33:16.563  INFO [Trade-Deposit-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 13:33:16.946  INFO [Trade-Deposit-Service,,,,]-INFO -TradeDepositServiceApplicationIntTests-[Line:61]-Started TradeDepositServiceApplicationIntTests in 24.376 seconds (JVM running for 28.895)
+2020-07-04 13:33:18.587  INFO [Trade-Deposit-Service,fea434fee39d0f79,,fea434fee39d0f79,true]-INFO -DepositController-[Line:26]-Request For Create Deposit =DepositBean(depositId=0, accountId=1, customerId=1, amount=500, transactionType=saving, createTime=createtime, executeTIme=executetime, status=1, remarks=remark)
+2020-07-04 13:33:18.725  INFO [Trade-Deposit-Service,fea434fee39d0f79,,fea434fee39d0f79,true]-INFO -DepositServiceImpl-[Line:51]-Request For Check Account Status
+2020-07-04 13:33:22.983  INFO [Trade-Deposit-Service,fea434fee39d0f79,,fea434fee39d0f79,true]-INFO -DepositServiceImpl-[Line:54]-Account Response ={"statusCode":2005,"message":"Successfully Received Account Details","object":{"accountId":1,"customerId":1,"accountNumber":78879,"accountName":"krunal","accountType":0,"accountBalance":1380,"accountStatus":1,"accountRemarks":"string"}}
+2020-07-04 13:33:23.025  INFO [Trade-Deposit-Service,fea434fee39d0f79,,fea434fee39d0f79,true]-INFO -DepositServiceImpl-[Line:71]-Request For Get Sequence For Deposit
+2020-07-04 13:33:23.507  INFO [Trade-Deposit-Service,fea434fee39d0f79,,fea434fee39d0f79,true]-INFO -DepositServiceImpl-[Line:74]-Response From Sequence For Deposit Id = 4
+2020-07-04 13:33:23.984  INFO [Trade-Deposit-Service,fea434fee39d0f79,,fea434fee39d0f79,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7153}] to localhost:27017
+2020-07-04 13:33:24.139  INFO [Trade-Deposit-Service,fea434fee39d0f79,,fea434fee39d0f79,true]-INFO -DepositServiceImpl-[Line:77]-Response For Save Deposit =Deposit(depositId=4, accountId=1, customerId=1, amount=500, transactionType=saving, createTime=createtime, executeTIme=executetime, status=1, remarks=remark)
+2020-07-04 13:33:24.140  INFO [Trade-Deposit-Service,fea434fee39d0f79,,fea434fee39d0f79,true]-INFO -DepositServiceImpl-[Line:86]-Request For Update Deposit Transfer History
+2020-07-04 13:33:24.473  WARN [Trade-Deposit-Service,,,,]-WARN -AsyncReporter$BoundedAsyncReporter-[Line:310]-Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2020-07-04 13:33:24.485  WARN [Trade-Deposit-Service,,,,]-WARN -AsyncReporter$BoundedAsyncReporter-[Line:317]-Dropped 2 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748)
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132)
+	at zipkin2.Call$Base.execute(Call.java:380)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739)
+	... 9 common frames omitted
+2020-07-04 13:33:35.906  WARN [Trade-Deposit-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593849815906, current=DOWN, previous=UP]
+2020-07-04 13:33:35.907  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Deposit-Service:0: registering service...
+2020-07-04 13:33:35.915  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Deposit-Service:0 - registration status: 204
+2020-07-04 13:33:36.212  INFO [Trade-Deposit-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7153}] to localhost:27017 because the pool has been closed.
+2020-07-04 13:33:37.007  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 13:33:40.019  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 13:33:40.052  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-Deposit-Service:0 - deregister  status: 200
+2020-07-04 13:33:40.074  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-09 17:22:07.732  INFO [Trade-Deposit-Service,,,,]-INFO -TradeDepositServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-09 17:22:11.346  INFO [Trade-Deposit-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-09 17:22:11.433  INFO [Trade-Deposit-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:22}] to localhost:27017
+2020-07-09 17:22:11.441  INFO [Trade-Deposit-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4368043}
+2020-07-09 17:22:12.788  INFO [Trade-Deposit-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-09 17:22:12.853  WARN [Trade-Deposit-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-09 17:22:12.853  INFO [Trade-Deposit-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-09 17:22:12.863  WARN [Trade-Deposit-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-09 17:22:12.863  INFO [Trade-Deposit-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-09 17:22:14.895  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-09 17:22:14.963  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-09 17:22:14.964  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-09 17:22:15.126  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-09 17:22:15.127  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-09 17:22:15.321  INFO [Trade-Deposit-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-09 17:22:15.344  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-09 17:22:15.345  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-09 17:22:15.345  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-09 17:22:15.345  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-09 17:22:15.345  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-09 17:22:15.346  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-09 17:22:15.346  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-09 17:22:15.523  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-09 17:22:15.528  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-09 17:22:15.531  INFO [Trade-Deposit-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-09 17:22:15.537  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1594295535535 with initial instances count: 7
+2020-07-09 17:22:15.558  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1594295535558, current=UP, previous=STARTING]
+2020-07-09 17:22:15.561  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/192.168.1.132:Trade-Deposit-Service:0: registering service...
+2020-07-09 17:22:15.566  INFO [Trade-Deposit-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-09 17:22:15.601  INFO [Trade-Deposit-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-09 17:22:15.616  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/192.168.1.132:Trade-Deposit-Service:0 - registration status: 204
+2020-07-09 17:22:15.657  INFO [Trade-Deposit-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-09 17:22:15.845  INFO [Trade-Deposit-Service,,,,]-INFO -TradeDepositServiceApplicationIntTests-[Line:61]-Started TradeDepositServiceApplicationIntTests in 9.159 seconds (JVM running for 10.369)
+2020-07-09 17:22:16.205  INFO [Trade-Deposit-Service,6b4767df15bfede9,,6b4767df15bfede9,true]-INFO -DepositController-[Line:38]-Request For Get List Of Deposits
+2020-07-09 17:22:16.264  INFO [Trade-Deposit-Service,6b4767df15bfede9,,6b4767df15bfede9,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:23}] to localhost:27017
+2020-07-09 17:22:16.341  INFO [Trade-Deposit-Service,6b4767df15bfede9,,6b4767df15bfede9,true]-INFO -DepositServiceImpl-[Line:137]-Response For List Of Deposits =[Deposit(depositId=1, accountId=1, customerId=1, amount=100, transactionType=string, createTime=string, executeTIme=string, status=0, remarks=string)]
+2020-07-09 17:22:16.470  WARN [Trade-Deposit-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1594295536470, current=DOWN, previous=UP]
+2020-07-09 17:22:16.471  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/192.168.1.132:Trade-Deposit-Service:0: registering service...
+2020-07-09 17:22:16.478  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/192.168.1.132:Trade-Deposit-Service:0 - registration status: 204
+2020-07-09 17:22:16.542  INFO [Trade-Deposit-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:23}] to localhost:27017 because the pool has been closed.
+2020-07-09 17:22:17.430  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-09 17:22:20.435  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-09 17:22:20.442  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-DEPOSIT-SERVICE/192.168.1.132:Trade-Deposit-Service:0 - deregister  status: 200
+2020-07-09 17:22:20.460  INFO [Trade-Deposit-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient

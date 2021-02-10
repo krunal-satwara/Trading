@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: Trade-TransferHistory-Service
+  data:
+    mongodb:
+      database: Trading
+server:
+  port: 8084

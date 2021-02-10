@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Trade-Customer-Service
+  data:
+    mongodb:
+      database: Trading
+server:
+  port: 8081
+

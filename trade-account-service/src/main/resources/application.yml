@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Trade-Account-Service
+  data:
+    mongodb:
+      database: Trading
+server:
+  port: 8080
+logging:
+    config:
+      classpath:logback.xml

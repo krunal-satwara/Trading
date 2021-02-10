@@ -1,0 +1,12 @@
+jwt:
+  secret:
+    trading@
+server:
+  port: 8086
+spring:
+  application:
+    name: Trade Authentication Service
+  data:
+    mongodb:
+      database: Trading
+

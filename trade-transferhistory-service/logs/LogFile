@@ -1,0 +1,260 @@
+2020-07-04 14:32:26.748  INFO [Trade-TransferHistory-Service,,,,]-INFO -TradeTransferhistoryServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 14:32:33.951  INFO [Trade-TransferHistory-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 14:32:34.084  INFO [Trade-TransferHistory-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7309}] to localhost:27017
+2020-07-04 14:32:34.098  INFO [Trade-TransferHistory-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9696200}
+2020-07-04 14:32:36.023  INFO [Trade-TransferHistory-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 14:32:36.131  WARN [Trade-TransferHistory-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 14:32:36.132  INFO [Trade-TransferHistory-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 14:32:36.145  WARN [Trade-TransferHistory-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 14:32:36.145  INFO [Trade-TransferHistory-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 14:32:40.940  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 14:32:41.061  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 14:32:41.061  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 14:32:41.301  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 14:32:41.302  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 14:32:41.590  INFO [Trade-TransferHistory-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 14:32:41.908  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 14:32:41.909  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 14:32:41.910  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 14:32:41.911  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 14:32:41.911  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 14:32:41.912  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 14:32:41.912  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 14:32:42.233  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 14:32:42.238  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 14:32:42.242  INFO [Trade-TransferHistory-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 14:32:42.248  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593853362247 with initial instances count: 7
+2020-07-04 14:32:42.268  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593853362268, current=UP, previous=STARTING]
+2020-07-04 14:32:42.272  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0: registering service...
+2020-07-04 14:32:42.329  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0 - registration status: 204
+2020-07-04 14:32:42.875  INFO [Trade-TransferHistory-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 14:32:42.900  INFO [Trade-TransferHistory-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 14:32:42.956  INFO [Trade-TransferHistory-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 14:32:43.164  INFO [Trade-TransferHistory-Service,,,,]-INFO -CachingOperationNameGenerator-[Line:40]-Generating unique operation named: transferHistoryUsingPOST_1
+2020-07-04 14:32:43.245  INFO [Trade-TransferHistory-Service,,,,]-INFO -TradeTransferhistoryServiceApplicationIntTests-[Line:61]-Started TradeTransferhistoryServiceApplicationIntTests in 19.576 seconds (JVM running for 22.13)
+2020-07-04 14:32:43.941  INFO [Trade-TransferHistory-Service,52b39f126752ed45,,52b39f126752ed45,true]-INFO -TransferHistoryController-[Line:30]-Request For Create Transfer History =TransferHistoryBean(transferId=0, accountId=1, customerId=1, TransactionTypeId=1, transferType=saving, beforeBalance=1880, afterBalance=1380, amount=500, note=note, createTime=createdDate)
+2020-07-04 14:32:44.244  INFO [Trade-TransferHistory-Service,52b39f126752ed45,,52b39f126752ed45,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7310}] to localhost:27017
+2020-07-04 14:32:44.355  INFO [Trade-TransferHistory-Service,52b39f126752ed45,,52b39f126752ed45,true]-INFO -TransferHistoryServiceImpl-[Line:49]-Response For Create Customer =TransferHistory(transferId=0, accountId=1, customerId=1, TransactionTypeId=1, transferType=saving, beforeBalance=1880, afterBalance=1380, amount=500, note=note, createTime=createdDate)
+2020-07-04 14:32:44.477  WARN [Trade-TransferHistory-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593853364477, current=DOWN, previous=UP]
+2020-07-04 14:32:44.479  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0: registering service...
+2020-07-04 14:32:44.530  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0 - registration status: 204
+2020-07-04 14:32:44.824  INFO [Trade-TransferHistory-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7310}] to localhost:27017 because the pool has been closed.
+2020-07-04 14:32:45.834  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 14:32:48.850  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 14:32:48.893  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0 - deregister  status: 200
+2020-07-04 14:32:49.026  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 14:33:55.666  INFO [Trade-TransferHistory-Service,,,,]-INFO -TradeTransferhistoryServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 14:34:02.748  INFO [Trade-TransferHistory-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 14:34:02.905  INFO [Trade-TransferHistory-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7314}] to localhost:27017
+2020-07-04 14:34:02.923  INFO [Trade-TransferHistory-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6659800}
+2020-07-04 14:34:04.859  INFO [Trade-TransferHistory-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 14:34:04.941  WARN [Trade-TransferHistory-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 14:34:04.941  INFO [Trade-TransferHistory-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 14:34:04.952  WARN [Trade-TransferHistory-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 14:34:04.952  INFO [Trade-TransferHistory-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 14:34:09.393  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 14:34:09.492  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 14:34:09.493  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 14:34:09.750  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 14:34:09.751  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 14:34:10.141  INFO [Trade-TransferHistory-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 14:34:10.477  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 14:34:10.478  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 14:34:10.479  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 14:34:10.479  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 14:34:10.480  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 14:34:10.480  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 14:34:10.481  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 14:34:10.767  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 14:34:10.772  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 14:34:10.777  INFO [Trade-TransferHistory-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 14:34:10.784  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593853450782 with initial instances count: 7
+2020-07-04 14:34:10.806  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593853450806, current=UP, previous=STARTING]
+2020-07-04 14:34:10.811  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0: registering service...
+2020-07-04 14:34:10.874  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0 - registration status: 204
+2020-07-04 14:34:11.512  INFO [Trade-TransferHistory-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 14:34:11.536  INFO [Trade-TransferHistory-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 14:34:11.594  INFO [Trade-TransferHistory-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 14:34:11.781  INFO [Trade-TransferHistory-Service,,,,]-INFO -CachingOperationNameGenerator-[Line:40]-Generating unique operation named: transferHistoryUsingPOST_1
+2020-07-04 14:34:11.863  INFO [Trade-TransferHistory-Service,,,,]-INFO -TradeTransferhistoryServiceApplicationIntTests-[Line:61]-Started TradeTransferhistoryServiceApplicationIntTests in 18.951 seconds (JVM running for 21.295)
+2020-07-04 14:34:12.531  INFO [Trade-TransferHistory-Service,864e03efcdf30788,,864e03efcdf30788,true]-INFO -TransferHistoryController-[Line:30]-Request For Create Transfer History =TransferHistoryBean(transferId=0, accountId=1, customerId=1, TransactionTypeId=1, transferType=bachat, beforeBalance=1880, afterBalance=1380, amount=500, note=note, createTime=createdDate)
+2020-07-04 14:34:12.742  INFO [Trade-TransferHistory-Service,864e03efcdf30788,,864e03efcdf30788,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7315}] to localhost:27017
+2020-07-04 14:34:12.794  INFO [Trade-TransferHistory-Service,864e03efcdf30788,,864e03efcdf30788,true]-INFO -TransferHistoryServiceImpl-[Line:49]-Response For Create Customer =TransferHistory(transferId=0, accountId=1, customerId=1, TransactionTypeId=1, transferType=bachat, beforeBalance=1880, afterBalance=1380, amount=500, note=note, createTime=createdDate)
+2020-07-04 14:34:12.877  WARN [Trade-TransferHistory-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593853452877, current=DOWN, previous=UP]
+2020-07-04 14:34:12.878  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0: registering service...
+2020-07-04 14:34:12.884  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0 - registration status: 204
+2020-07-04 14:34:13.255  INFO [Trade-TransferHistory-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7315}] to localhost:27017 because the pool has been closed.
+2020-07-04 14:34:14.261  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 14:34:17.274  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 14:34:17.298  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0 - deregister  status: 200
+2020-07-04 14:34:17.317  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 14:38:04.716  INFO [Trade-TransferHistory-Service,,,,]-INFO -TradeTransferhistoryServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 14:38:11.479  INFO [Trade-TransferHistory-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 14:38:11.619  INFO [Trade-TransferHistory-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7328}] to localhost:27017
+2020-07-04 14:38:11.629  INFO [Trade-TransferHistory-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5659100}
+2020-07-04 14:38:13.557  INFO [Trade-TransferHistory-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 14:38:13.661  WARN [Trade-TransferHistory-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 14:38:13.662  INFO [Trade-TransferHistory-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 14:38:13.677  WARN [Trade-TransferHistory-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 14:38:13.678  INFO [Trade-TransferHistory-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 14:38:18.059  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 14:38:18.161  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 14:38:18.161  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 14:38:18.430  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 14:38:18.431  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 14:38:18.750  INFO [Trade-TransferHistory-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 14:38:19.120  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 14:38:19.121  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 14:38:19.122  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 14:38:19.123  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 14:38:19.123  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 14:38:19.124  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 14:38:19.124  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 14:38:19.406  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 14:38:19.412  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 14:38:19.417  INFO [Trade-TransferHistory-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 14:38:19.424  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593853699422 with initial instances count: 7
+2020-07-04 14:38:19.445  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593853699445, current=UP, previous=STARTING]
+2020-07-04 14:38:19.451  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0: registering service...
+2020-07-04 14:38:19.517  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0 - registration status: 204
+2020-07-04 14:38:20.155  INFO [Trade-TransferHistory-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 14:38:20.177  INFO [Trade-TransferHistory-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 14:38:20.233  INFO [Trade-TransferHistory-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 14:38:20.443  INFO [Trade-TransferHistory-Service,,,,]-INFO -CachingOperationNameGenerator-[Line:40]-Generating unique operation named: transferHistoryUsingPOST_1
+2020-07-04 14:38:20.525  INFO [Trade-TransferHistory-Service,,,,]-INFO -TradeTransferhistoryServiceApplicationIntTests-[Line:61]-Started TradeTransferhistoryServiceApplicationIntTests in 18.54 seconds (JVM running for 21.114)
+2020-07-04 14:38:21.122  WARN [Trade-TransferHistory-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593853701122, current=DOWN, previous=UP]
+2020-07-04 14:38:21.123  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0: registering service...
+2020-07-04 14:38:21.148  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0 - registration status: 204
+2020-07-04 14:38:22.541  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 14:38:25.550  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 14:38:25.566  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0 - deregister  status: 200
+2020-07-04 14:38:25.627  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 14:56:54.725  INFO [Trade-TransferHistory-Service,,,,]-INFO -TradeTransferhistoryServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 14:57:03.730  INFO [Trade-TransferHistory-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 14:57:03.887  INFO [Trade-TransferHistory-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7363}] to localhost:27017
+2020-07-04 14:57:03.912  INFO [Trade-TransferHistory-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6161400}
+2020-07-04 14:57:09.113  INFO [Trade-TransferHistory-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 14:57:09.267  WARN [Trade-TransferHistory-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 14:57:09.268  INFO [Trade-TransferHistory-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 14:57:09.285  WARN [Trade-TransferHistory-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 14:57:09.286  INFO [Trade-TransferHistory-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 14:57:18.581  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 14:57:18.695  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 14:57:18.696  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 14:57:18.930  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 14:57:18.930  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 14:57:19.592  INFO [Trade-TransferHistory-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 14:57:20.451  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 14:57:20.451  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 14:57:20.452  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 14:57:20.452  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 14:57:20.453  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 14:57:20.453  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 14:57:20.454  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 14:57:20.758  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 14:57:20.762  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 14:57:20.767  INFO [Trade-TransferHistory-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 14:57:20.776  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593854840774 with initial instances count: 7
+2020-07-04 14:57:20.831  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593854840831, current=UP, previous=STARTING]
+2020-07-04 14:57:20.936  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0: registering service...
+2020-07-04 14:57:21.027  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0 - registration status: 204
+2020-07-04 14:57:22.024  INFO [Trade-TransferHistory-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 14:57:22.058  INFO [Trade-TransferHistory-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 14:57:22.124  INFO [Trade-TransferHistory-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 14:57:22.456  INFO [Trade-TransferHistory-Service,,,,]-INFO -CachingOperationNameGenerator-[Line:40]-Generating unique operation named: transferHistoryUsingPOST_1
+2020-07-04 14:57:22.542  INFO [Trade-TransferHistory-Service,,,,]-INFO -TradeTransferhistoryServiceApplicationIntTests-[Line:61]-Started TradeTransferhistoryServiceApplicationIntTests in 30.608 seconds (JVM running for 35.146)
+2020-07-04 14:57:23.252  WARN [Trade-TransferHistory-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593854843252, current=DOWN, previous=UP]
+2020-07-04 14:57:23.253  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0: registering service...
+2020-07-04 14:57:23.302  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0 - registration status: 204
+2020-07-04 14:57:24.649  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 14:57:27.664  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 14:57:27.752  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/DESKTOP-8MTR74O.mshome.net:Trade-TransferHistory-Service:0 - deregister  status: 200
+2020-07-04 14:57:27.909  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 14:59:58.245  INFO [Trade-TransferHistory-Service,,,,]-INFO -TradeTransferhistoryServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 15:00:18.821  INFO [Trade-TransferHistory-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 15:00:18.981  INFO [Trade-TransferHistory-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7371}] to localhost:27017
+2020-07-04 15:00:18.996  INFO [Trade-TransferHistory-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10623400}
+2020-07-04 15:00:25.206  INFO [Trade-TransferHistory-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 15:00:25.494  WARN [Trade-TransferHistory-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 15:00:25.494  INFO [Trade-TransferHistory-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 15:00:25.505  WARN [Trade-TransferHistory-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 15:00:25.506  INFO [Trade-TransferHistory-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 15:00:41.449  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 15:00:42.139  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 15:00:42.140  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 15:00:45.428  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 15:00:45.429  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 15:00:47.133  INFO [Trade-TransferHistory-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 15:00:47.739  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 15:00:47.742  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 15:00:47.744  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 15:00:47.746  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 15:00:47.748  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 15:00:47.751  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 15:00:47.753  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 15:00:48.764  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 15:00:48.848  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 15:00:48.861  INFO [Trade-TransferHistory-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 15:00:49.261  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593855048873 with initial instances count: 8
+2020-07-04 15:00:49.414  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593855049414, current=UP, previous=STARTING]
+2020-07-04 15:00:49.428  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/host.docker.internal:Trade-TransferHistory-Service:0: registering service...
+2020-07-04 15:00:49.689  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/host.docker.internal:Trade-TransferHistory-Service:0 - registration status: 204
+2020-07-04 15:00:50.146  INFO [Trade-TransferHistory-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 15:00:50.608  INFO [Trade-TransferHistory-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 15:00:50.710  INFO [Trade-TransferHistory-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 15:00:51.309  INFO [Trade-TransferHistory-Service,,,,]-INFO -TradeTransferhistoryServiceApplicationIntTests-[Line:61]-Started TradeTransferhistoryServiceApplicationIntTests in 56.72 seconds (JVM running for 59.363)
+2020-07-04 15:00:55.754  INFO [Trade-TransferHistory-Service,bd5f91eacefda83c,,bd5f91eacefda83c,true]-INFO -TransferHistoryController-[Line:36]-Request For Get Transfer History =5
+2020-07-04 15:00:56.785  INFO [Trade-TransferHistory-Service,bd5f91eacefda83c,,bd5f91eacefda83c,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7377}] to localhost:27017
+2020-07-04 15:00:57.376  INFO [Trade-TransferHistory-Service,bd5f91eacefda83c,,bd5f91eacefda83c,true]-INFO -TransferHistoryServiceImpl-[Line:61]-Response For Get Transfer History =Optional[TransferHistory(transferId=5, accountId=1, customerId=1, TransactionTypeId=1, transferType=type, beforeBalance=1880, afterBalance=1380, amount=500, note=remark, createTime=cratetime)]
+2020-07-04 15:00:57.765  WARN [Trade-TransferHistory-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593855057765, current=DOWN, previous=UP]
+2020-07-04 15:00:57.769  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/host.docker.internal:Trade-TransferHistory-Service:0: registering service...
+2020-07-04 15:00:57.806  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/host.docker.internal:Trade-TransferHistory-Service:0 - registration status: 204
+2020-07-04 15:00:58.516  INFO [Trade-TransferHistory-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7377}] to localhost:27017 because the pool has been closed.
+2020-07-04 15:00:59.216  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 15:01:02.221  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 15:01:02.225  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/host.docker.internal:Trade-TransferHistory-Service:0 - deregister  status: 200
+2020-07-04 15:01:02.331  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 15:01:42.800  INFO [Trade-TransferHistory-Service,,,,]-INFO -TradeTransferhistoryServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 15:01:52.817  INFO [Trade-TransferHistory-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 15:01:53.093  INFO [Trade-TransferHistory-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7380}] to localhost:27017
+2020-07-04 15:01:53.115  INFO [Trade-TransferHistory-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=15994700}
+2020-07-04 15:01:56.053  INFO [Trade-TransferHistory-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 15:01:56.175  WARN [Trade-TransferHistory-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 15:01:56.175  INFO [Trade-TransferHistory-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 15:01:56.187  WARN [Trade-TransferHistory-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 15:01:56.189  INFO [Trade-TransferHistory-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 15:02:01.782  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 15:02:01.888  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 15:02:01.889  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 15:02:02.184  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 15:02:02.185  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 15:02:02.593  INFO [Trade-TransferHistory-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 15:02:03.202  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 15:02:03.204  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 15:02:03.205  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 15:02:03.206  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 15:02:03.207  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 15:02:03.208  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 15:02:03.209  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 15:02:03.706  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 15:02:03.719  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 15:02:03.729  INFO [Trade-TransferHistory-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 15:02:03.737  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593855123736 with initial instances count: 7
+2020-07-04 15:02:03.757  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593855123757, current=UP, previous=STARTING]
+2020-07-04 15:02:03.762  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/host.docker.internal:Trade-TransferHistory-Service:0: registering service...
+2020-07-04 15:02:04.148  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/host.docker.internal:Trade-TransferHistory-Service:0 - registration status: 204
+2020-07-04 15:02:04.524  INFO [Trade-TransferHistory-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 15:02:04.553  INFO [Trade-TransferHistory-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 15:02:04.645  INFO [Trade-TransferHistory-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 15:02:05.033  INFO [Trade-TransferHistory-Service,,,,]-INFO -TradeTransferhistoryServiceApplicationIntTests-[Line:61]-Started TradeTransferhistoryServiceApplicationIntTests in 25.787 seconds (JVM running for 33.005)
+2020-07-04 15:02:05.700  INFO [Trade-TransferHistory-Service,d291975ee5300e5a,,d291975ee5300e5a,true]-INFO -TransferHistoryController-[Line:42]-Request For List Of Transfer History 
+2020-07-04 15:02:05.899  INFO [Trade-TransferHistory-Service,d291975ee5300e5a,,d291975ee5300e5a,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7381}] to localhost:27017
+2020-07-04 15:02:06.031  INFO [Trade-TransferHistory-Service,d291975ee5300e5a,,d291975ee5300e5a,true]-INFO -TransferHistoryServiceImpl-[Line:73]-Response For List Of Transfer History =[TransferHistory(transferId=1, accountId=1, customerId=1, TransactionTypeId=1, transferType=string, beforeBalance=80, afterBalance=480, amount=400, note=string, createTime=string), TransferHistory(transferId=2, accountId=1, customerId=1, TransactionTypeId=2, transferType=string, beforeBalance=480, afterBalance=880, amount=400, note=string, createTime=string), TransferHistory(transferId=0, accountId=1, customerId=1, TransactionTypeId=1, transferType=bachat, beforeBalance=1880, afterBalance=1380, amount=500, note=note, createTime=createdDate), TransferHistory(transferId=3, accountId=1, customerId=1, TransactionTypeId=3, transferType=saving, beforeBalance=880, afterBalance=1380, amount=500, note=remark, createTime=createtime), TransferHistory(transferId=4, accountId=1, customerId=1, TransactionTypeId=4, transferType=saving, beforeBalance=1380, afterBalance=1880, amount=500, note=remark, createTime=createtime), TransferHistory(transferId=5, accountId=1, customerId=1, TransactionTypeId=1, transferType=type, beforeBalance=1880, afterBalance=1380, amount=500, note=remark, createTime=cratetime)]
+2020-07-04 15:02:06.151  WARN [Trade-TransferHistory-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593855126151, current=DOWN, previous=UP]
+2020-07-04 15:02:06.152  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/host.docker.internal:Trade-TransferHistory-Service:0: registering service...
+2020-07-04 15:02:06.160  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/host.docker.internal:Trade-TransferHistory-Service:0 - registration status: 204
+2020-07-04 15:02:06.470  INFO [Trade-TransferHistory-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7381}] to localhost:27017 because the pool has been closed.
+2020-07-04 15:02:07.481  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 15:02:10.589  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 15:02:10.603  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-TRANSFERHISTORY-SERVICE/host.docker.internal:Trade-TransferHistory-Service:0 - deregister  status: 200
+2020-07-04 15:02:10.657  INFO [Trade-TransferHistory-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient

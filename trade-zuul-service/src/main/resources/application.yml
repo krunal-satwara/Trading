@@ -1,0 +1,39 @@
+jwt:
+  secret:
+    trading@
+server:
+ port:
+  8762
+spring:
+  application:
+    name: Trade-Zuul-Service
+  data:
+    mongodb:
+      database: Trading
+
+zuul:
+  routes:
+    trade-zuul-service:
+      path: /api/zuul-service/**
+      url: http://localhost:8762/
+    trade-account-service:
+      path: /api/account-service/**
+      url: http://localhost:8080/
+    trade-customer-service:
+      path: /api/customer-service/**
+      url: http://localhost:8081/
+    trade-deposit-service:
+      path: /api/deposit-service/**
+      url: http://localhost:8082/
+    trade-sequence-service:
+      path: /api/sequence-service/**
+      url: http://localhost:8083/
+    trade-transferhistory-service:
+      path: /api/transferhistory-service/**
+      url: http://localhost:8084/
+    trade-withdrawal-service:
+      path: /api/withdrawal-service/**
+      url: http://localhost:8085/
+    trade-authentication-service:
+      path: /api/auth-service/**
+      url: http://localhost:8086/

@@ -1,0 +1,638 @@
+2020-07-04 08:51:36.415  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 08:51:44.613  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 08:51:44.774  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:6990}] to localhost:27017
+2020-07-04 08:51:44.789  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10299600}
+2020-07-04 08:51:47.235  INFO [Trade-Account-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 08:51:47.353  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 08:51:47.353  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 08:51:47.368  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 08:51:47.369  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 08:51:53.053  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 08:51:53.161  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 08:51:53.162  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 08:51:54.208  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 08:51:54.209  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 08:51:54.550  INFO [Trade-Account-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 08:51:55.350  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 08:51:55.350  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 08:51:55.351  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 08:51:55.352  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 08:51:55.352  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 08:51:55.352  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 08:51:55.353  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 08:51:55.542  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 08:51:55.546  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 08:51:55.551  INFO [Trade-Account-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 08:51:55.558  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593832915556 with initial instances count: 7
+2020-07-04 08:51:55.576  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593832915576, current=UP, previous=STARTING]
+2020-07-04 08:51:55.580  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 08:51:55.636  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 08:51:56.183  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 08:51:56.540  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 08:51:56.626  INFO [Trade-Account-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 08:51:57.099  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:61]-Started AccountTradeServiceApplicationIntTests in 23.711 seconds (JVM running for 26.515)
+2020-07-04 08:52:00.376  INFO [Trade-Account-Service,9392da8c972f13c0,,9392da8c972f13c0,true]-INFO -AccountController-[Line:40]-Request For Create Account =AccountBean(accountId=0, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 08:52:00.680  INFO [Trade-Account-Service,9392da8c972f13c0,,9392da8c972f13c0,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:6992}] to localhost:27017
+2020-07-04 08:52:00.795  INFO [Trade-Account-Service,9392da8c972f13c0,,9392da8c972f13c0,true]-INFO -AccountServiceImpl-[Line:64]-Request For Sequence For Customer
+2020-07-04 08:52:00.913  INFO [Trade-Account-Service,9392da8c972f13c0,,9392da8c972f13c0,true]-INFO -AccountServiceImpl-[Line:67]-Response From Sequence For Account Id = 2
+2020-07-04 08:52:01.408  INFO [Trade-Account-Service,9392da8c972f13c0,,9392da8c972f13c0,true]-INFO -AccountServiceImpl-[Line:70]-Response For Create Account =Account(accountId=2, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 08:52:02.486  WARN [Trade-Account-Service,,,,]-WARN -AsyncReporter$BoundedAsyncReporter-[Line:310]-Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2020-07-04 08:52:02.493  WARN [Trade-Account-Service,,,,]-WARN -AsyncReporter$BoundedAsyncReporter-[Line:317]-Dropped 3 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748)
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132)
+	at zipkin2.Call$Base.execute(Call.java:380)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739)
+	... 9 common frames omitted
+2020-07-04 08:52:03.132  WARN [Trade-Account-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593832923132, current=DOWN, previous=UP]
+2020-07-04 08:52:03.133  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 08:52:03.141  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 08:52:03.444  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:6992}] to localhost:27017 because the pool has been closed.
+2020-07-04 08:52:03.999  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 08:52:07.003  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 08:52:07.009  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - deregister  status: 200
+2020-07-04 08:52:07.027  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 08:57:32.125  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 08:57:39.356  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 08:57:39.481  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7004}] to localhost:27017
+2020-07-04 08:57:39.495  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5734700}
+2020-07-04 08:57:41.617  INFO [Trade-Account-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 08:57:41.752  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 08:57:41.752  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 08:57:41.766  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 08:57:41.767  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 08:57:49.255  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 08:57:49.384  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 08:57:49.384  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 08:57:49.706  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 08:57:49.707  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 08:57:50.072  INFO [Trade-Account-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 08:57:50.401  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 08:57:50.402  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 08:57:50.403  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 08:57:50.403  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 08:57:50.404  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 08:57:50.404  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 08:57:50.404  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 08:57:50.704  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 08:57:50.716  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 08:57:50.720  INFO [Trade-Account-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 08:57:50.725  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593833270724 with initial instances count: 7
+2020-07-04 08:57:50.743  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593833270743, current=UP, previous=STARTING]
+2020-07-04 08:57:50.748  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 08:57:50.796  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 08:57:51.317  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 08:57:51.347  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 08:57:51.428  INFO [Trade-Account-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 08:57:51.695  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:61]-Started AccountTradeServiceApplicationIntTests in 23.058 seconds (JVM running for 25.282)
+2020-07-04 08:57:52.610  INFO [Trade-Account-Service,2617b63442a52f31,,2617b63442a52f31,true]-INFO -AccountController-[Line:40]-Request For Create Account =AccountBean(accountId=0, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 08:57:52.795  INFO [Trade-Account-Service,2617b63442a52f31,,2617b63442a52f31,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7005}] to localhost:27017
+2020-07-04 08:57:52.920  INFO [Trade-Account-Service,2617b63442a52f31,,2617b63442a52f31,true]-INFO -AccountServiceImpl-[Line:64]-Request For Sequence For Customer
+2020-07-04 08:57:53.136  INFO [Trade-Account-Service,2617b63442a52f31,,2617b63442a52f31,true]-INFO -AccountServiceImpl-[Line:67]-Response From Sequence For Account Id = 3
+2020-07-04 08:57:53.260  INFO [Trade-Account-Service,2617b63442a52f31,,2617b63442a52f31,true]-INFO -AccountServiceImpl-[Line:70]-Response For Create Account =Account(accountId=3, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 08:57:53.356  WARN [Trade-Account-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593833273356, current=DOWN, previous=UP]
+2020-07-04 08:57:53.356  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 08:57:53.363  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 08:57:53.719  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7005}] to localhost:27017 because the pool has been closed.
+2020-07-04 08:57:54.646  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 08:57:57.652  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 08:57:57.658  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - deregister  status: 200
+2020-07-04 08:57:57.682  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 09:00:14.328  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 09:00:22.007  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 09:00:22.182  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7017}] to localhost:27017
+2020-07-04 09:00:22.194  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5554200}
+2020-07-04 09:00:24.161  INFO [Trade-Account-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 09:00:24.251  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:00:24.252  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:00:24.261  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:00:24.261  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:00:29.653  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 09:00:29.835  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 09:00:29.836  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 09:00:30.128  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 09:00:30.130  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 09:00:30.465  INFO [Trade-Account-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 09:00:30.815  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 09:00:30.816  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 09:00:30.817  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 09:00:30.817  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 09:00:30.818  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 09:00:30.818  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 09:00:30.818  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 09:00:31.089  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 09:00:31.094  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 09:00:31.098  INFO [Trade-Account-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 09:00:31.106  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593833431102 with initial instances count: 7
+2020-07-04 09:00:31.121  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593833431121, current=UP, previous=STARTING]
+2020-07-04 09:00:31.125  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:00:31.182  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:00:31.734  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 09:00:31.755  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 09:00:31.819  INFO [Trade-Account-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 09:00:32.098  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:61]-Started AccountTradeServiceApplicationIntTests in 21.559 seconds (JVM running for 23.603)
+2020-07-04 09:00:32.728  INFO [Trade-Account-Service,6d8fa5322d6d1d09,,6d8fa5322d6d1d09,true]-INFO -AccountController-[Line:40]-Request For Create Account =AccountBean(accountId=0, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:00:32.915  INFO [Trade-Account-Service,6d8fa5322d6d1d09,,6d8fa5322d6d1d09,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7019}] to localhost:27017
+2020-07-04 09:00:32.978  INFO [Trade-Account-Service,6d8fa5322d6d1d09,,6d8fa5322d6d1d09,true]-INFO -AccountServiceImpl-[Line:64]-Request For Sequence For Customer
+2020-07-04 09:00:33.091  INFO [Trade-Account-Service,6d8fa5322d6d1d09,,6d8fa5322d6d1d09,true]-INFO -AccountServiceImpl-[Line:67]-Response From Sequence For Account Id = 4
+2020-07-04 09:00:33.185  INFO [Trade-Account-Service,6d8fa5322d6d1d09,,6d8fa5322d6d1d09,true]-INFO -AccountServiceImpl-[Line:70]-Response For Create Account =Account(accountId=4, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:00:33.238  WARN [Trade-Account-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593833433238, current=DOWN, previous=UP]
+2020-07-04 09:00:33.239  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:00:33.278  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:00:33.554  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7019}] to localhost:27017 because the pool has been closed.
+2020-07-04 09:00:34.561  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 09:00:37.566  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 09:00:37.625  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - deregister  status: 200
+2020-07-04 09:00:37.658  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 09:03:02.589  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 09:03:09.286  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 09:03:09.475  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7025}] to localhost:27017
+2020-07-04 09:03:09.498  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=14429100}
+2020-07-04 09:03:12.369  INFO [Trade-Account-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 09:03:12.472  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:03:12.473  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:03:12.496  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:03:12.497  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:03:17.485  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 09:03:17.610  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 09:03:17.611  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 09:03:17.874  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 09:03:17.876  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 09:03:18.233  INFO [Trade-Account-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 09:03:18.599  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 09:03:18.600  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 09:03:18.601  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 09:03:18.601  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 09:03:18.602  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 09:03:18.602  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 09:03:18.603  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 09:03:18.867  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 09:03:18.876  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 09:03:18.880  INFO [Trade-Account-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 09:03:18.886  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593833598885 with initial instances count: 7
+2020-07-04 09:03:18.912  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593833598912, current=UP, previous=STARTING]
+2020-07-04 09:03:18.917  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:03:18.973  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:03:19.557  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 09:03:19.586  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 09:03:19.644  INFO [Trade-Account-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 09:03:19.925  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:61]-Started AccountTradeServiceApplicationIntTests in 19.904 seconds (JVM running for 22.732)
+2020-07-04 09:03:20.513  INFO [Trade-Account-Service,51e3fe00766c4784,,51e3fe00766c4784,true]-INFO -AccountController-[Line:40]-Request For Create Account =AccountBean(accountId=0, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:03:20.653  INFO [Trade-Account-Service,51e3fe00766c4784,,51e3fe00766c4784,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7026}] to localhost:27017
+2020-07-04 09:03:20.718  INFO [Trade-Account-Service,51e3fe00766c4784,,51e3fe00766c4784,true]-INFO -AccountServiceImpl-[Line:64]-Request For Sequence For Customer
+2020-07-04 09:03:20.861  INFO [Trade-Account-Service,51e3fe00766c4784,,51e3fe00766c4784,true]-INFO -AccountServiceImpl-[Line:67]-Response From Sequence For Account Id = 5
+2020-07-04 09:03:20.926  INFO [Trade-Account-Service,51e3fe00766c4784,,51e3fe00766c4784,true]-INFO -AccountServiceImpl-[Line:70]-Response For Create Account =Account(accountId=5, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:03:20.984  WARN [Trade-Account-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593833600984, current=DOWN, previous=UP]
+2020-07-04 09:03:20.985  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:03:20.991  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:03:21.297  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7026}] to localhost:27017 because the pool has been closed.
+2020-07-04 09:03:22.304  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 09:03:25.307  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 09:03:25.316  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - deregister  status: 200
+2020-07-04 09:03:25.341  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 09:06:28.558  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 09:06:35.067  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 09:06:35.196  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7033}] to localhost:27017
+2020-07-04 09:06:35.207  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6804400}
+2020-07-04 09:06:37.096  INFO [Trade-Account-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 09:06:37.194  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:06:37.194  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:06:37.205  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:06:37.206  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:06:42.133  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 09:06:42.244  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 09:06:42.245  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 09:06:42.485  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 09:06:42.486  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 09:06:42.755  INFO [Trade-Account-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 09:06:43.078  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 09:06:43.079  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 09:06:43.079  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 09:06:43.080  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 09:06:43.080  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 09:06:43.081  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 09:06:43.082  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 09:06:43.332  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 09:06:43.336  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 09:06:43.341  INFO [Trade-Account-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 09:06:43.347  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593833803345 with initial instances count: 7
+2020-07-04 09:06:43.362  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593833803362, current=UP, previous=STARTING]
+2020-07-04 09:06:43.366  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:06:43.419  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:06:43.989  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 09:06:44.013  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 09:06:44.066  INFO [Trade-Account-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 09:06:44.340  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:61]-Started AccountTradeServiceApplicationIntTests in 18.704 seconds (JVM running for 21.399)
+2020-07-04 09:06:44.841  INFO [Trade-Account-Service,2486cb2f2b129be6,,2486cb2f2b129be6,true]-INFO -AccountController-[Line:58]-Request For Delete Of Account =4
+2020-07-04 09:06:44.958  INFO [Trade-Account-Service,2486cb2f2b129be6,,2486cb2f2b129be6,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7035}] to localhost:27017
+2020-07-04 09:06:45.032  INFO [Trade-Account-Service,2486cb2f2b129be6,,2486cb2f2b129be6,true]-INFO -AccountServiceImpl-[Line:116]-Get Account For Delete =Account(accountId=4, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:06:45.103  INFO [Trade-Account-Service,2486cb2f2b129be6,,2486cb2f2b129be6,true]-INFO -AccountServiceImpl-[Line:119]-Delete Account =Account(accountId=4, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=0, accountRemarks=remarks)
+2020-07-04 09:06:45.184  WARN [Trade-Account-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593833805184, current=DOWN, previous=UP]
+2020-07-04 09:06:45.184  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:06:45.189  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:06:45.558  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7035}] to localhost:27017 because the pool has been closed.
+2020-07-04 09:06:46.564  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 09:06:49.578  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 09:06:49.588  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - deregister  status: 200
+2020-07-04 09:06:49.617  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 09:08:51.216  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 09:08:57.156  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 09:08:57.262  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7043}] to localhost:27017
+2020-07-04 09:08:57.273  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6561700}
+2020-07-04 09:08:59.178  INFO [Trade-Account-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 09:08:59.260  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:08:59.261  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:08:59.269  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:08:59.270  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:09:03.523  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 09:09:03.612  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 09:09:03.612  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 09:09:03.828  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 09:09:03.828  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 09:09:04.092  INFO [Trade-Account-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 09:09:04.409  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 09:09:04.409  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 09:09:04.410  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 09:09:04.410  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 09:09:04.411  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 09:09:04.412  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 09:09:04.412  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 09:09:04.684  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 09:09:04.688  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 09:09:04.693  INFO [Trade-Account-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 09:09:04.698  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593833944697 with initial instances count: 7
+2020-07-04 09:09:04.717  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593833944717, current=UP, previous=STARTING]
+2020-07-04 09:09:04.721  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:09:04.798  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:09:05.312  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 09:09:05.333  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 09:09:05.390  INFO [Trade-Account-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 09:09:05.634  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:61]-Started AccountTradeServiceApplicationIntTests in 16.77 seconds (JVM running for 19.032)
+2020-07-04 09:09:06.243  INFO [Trade-Account-Service,4ec3f7ffa06cf7bf,,4ec3f7ffa06cf7bf,true]-INFO -AccountController-[Line:40]-Request For Create Account =AccountBean(accountId=0, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:09:06.404  INFO [Trade-Account-Service,4ec3f7ffa06cf7bf,,4ec3f7ffa06cf7bf,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7044}] to localhost:27017
+2020-07-04 09:09:06.477  INFO [Trade-Account-Service,4ec3f7ffa06cf7bf,,4ec3f7ffa06cf7bf,true]-INFO -AccountServiceImpl-[Line:64]-Request For Sequence For Customer
+2020-07-04 09:09:06.542  INFO [Trade-Account-Service,4ec3f7ffa06cf7bf,,4ec3f7ffa06cf7bf,true]-INFO -AccountServiceImpl-[Line:67]-Response From Sequence For Account Id = 6
+2020-07-04 09:09:06.606  INFO [Trade-Account-Service,4ec3f7ffa06cf7bf,,4ec3f7ffa06cf7bf,true]-INFO -AccountServiceImpl-[Line:70]-Response For Create Account =Account(accountId=6, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:09:06.675  WARN [Trade-Account-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593833946675, current=DOWN, previous=UP]
+2020-07-04 09:09:06.676  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:09:06.824  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:09:07.027  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7044}] to localhost:27017 because the pool has been closed.
+2020-07-04 09:09:08.035  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 09:09:11.042  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 09:09:11.053  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - deregister  status: 200
+2020-07-04 09:09:11.083  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 09:09:49.959  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 09:09:55.814  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 09:09:55.931  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7047}] to localhost:27017
+2020-07-04 09:09:55.942  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5534200}
+2020-07-04 09:09:57.799  INFO [Trade-Account-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 09:09:57.878  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:09:57.879  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:09:57.887  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:09:57.887  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:10:01.965  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 09:10:02.052  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 09:10:02.052  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 09:10:02.255  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 09:10:02.255  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 09:10:02.529  INFO [Trade-Account-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 09:10:02.834  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 09:10:02.834  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 09:10:02.835  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 09:10:02.835  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 09:10:02.836  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 09:10:02.836  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 09:10:02.837  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 09:10:03.089  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 09:10:03.091  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 09:10:03.098  INFO [Trade-Account-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 09:10:03.103  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593834003101 with initial instances count: 7
+2020-07-04 09:10:03.122  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593834003122, current=UP, previous=STARTING]
+2020-07-04 09:10:03.128  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:10:03.181  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:10:03.719  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 09:10:03.742  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 09:10:03.788  INFO [Trade-Account-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 09:10:04.037  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:61]-Started AccountTradeServiceApplicationIntTests in 16.665 seconds (JVM running for 18.899)
+2020-07-04 09:10:04.453  INFO [Trade-Account-Service,c2b8c4250d35fe4a,,c2b8c4250d35fe4a,true]-INFO -AccountController-[Line:58]-Request For Delete Of Account =6
+2020-07-04 09:10:04.535  INFO [Trade-Account-Service,c2b8c4250d35fe4a,,c2b8c4250d35fe4a,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7048}] to localhost:27017
+2020-07-04 09:10:04.591  INFO [Trade-Account-Service,c2b8c4250d35fe4a,,c2b8c4250d35fe4a,true]-INFO -AccountServiceImpl-[Line:116]-Get Account For Delete =Account(accountId=6, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:10:04.664  INFO [Trade-Account-Service,c2b8c4250d35fe4a,,c2b8c4250d35fe4a,true]-INFO -AccountServiceImpl-[Line:119]-Delete Account =Account(accountId=6, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=0, accountRemarks=remarks)
+2020-07-04 09:10:04.741  WARN [Trade-Account-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593834004741, current=DOWN, previous=UP]
+2020-07-04 09:10:04.742  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:10:04.748  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:10:05.060  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7048}] to localhost:27017 because the pool has been closed.
+2020-07-04 09:10:06.068  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 09:10:09.076  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 09:10:09.107  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - deregister  status: 200
+2020-07-04 09:10:09.126  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 09:14:14.921  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 09:14:21.037  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 09:14:21.143  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7057}] to localhost:27017
+2020-07-04 09:14:21.176  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7966100}
+2020-07-04 09:14:22.998  INFO [Trade-Account-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 09:14:23.075  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:14:23.076  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:14:23.084  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:14:23.085  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:14:27.150  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 09:14:27.245  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 09:14:27.245  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 09:14:27.458  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 09:14:27.459  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 09:14:27.705  INFO [Trade-Account-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 09:14:28.037  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 09:14:28.038  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 09:14:28.039  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 09:14:28.039  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 09:14:28.040  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 09:14:28.040  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 09:14:28.041  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 09:14:28.306  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 09:14:28.310  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 09:14:28.314  INFO [Trade-Account-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 09:14:28.320  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593834268318 with initial instances count: 7
+2020-07-04 09:14:28.338  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593834268338, current=UP, previous=STARTING]
+2020-07-04 09:14:28.343  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:14:28.398  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:14:28.922  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 09:14:28.947  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 09:14:29.005  INFO [Trade-Account-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 09:14:29.244  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:61]-Started AccountTradeServiceApplicationIntTests in 17.132 seconds (JVM running for 19.355)
+2020-07-04 09:14:29.805  INFO [Trade-Account-Service,3f89f02b58a4609c,,3f89f02b58a4609c,true]-INFO -AccountController-[Line:46]-Request For Update Account =AccountBean(accountId=6, customerId=1, accountNumber=101, accountName=wwwwww, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:14:29.954  INFO [Trade-Account-Service,3f89f02b58a4609c,,3f89f02b58a4609c,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7059}] to localhost:27017
+2020-07-04 09:14:30.078  INFO [Trade-Account-Service,3f89f02b58a4609c,,3f89f02b58a4609c,true]-INFO -AccountServiceImpl-[Line:74]-Response For Create Account =Account(accountId=6, customerId=1, accountNumber=101, accountName=wwwwww, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:14:30.152  WARN [Trade-Account-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593834270152, current=DOWN, previous=UP]
+2020-07-04 09:14:30.153  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:14:30.158  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:14:30.514  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7059}] to localhost:27017 because the pool has been closed.
+2020-07-04 09:14:31.519  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 09:14:34.523  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 09:14:34.532  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - deregister  status: 200
+2020-07-04 09:14:34.552  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 09:15:03.310  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 09:15:09.285  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 09:15:09.385  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7061}] to localhost:27017
+2020-07-04 09:15:09.396  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5504500}
+2020-07-04 09:15:11.134  INFO [Trade-Account-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 09:15:11.228  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:15:11.228  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:15:11.239  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:15:11.239  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:15:16.014  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 09:15:16.098  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 09:15:16.099  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 09:15:16.287  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 09:15:16.288  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 09:15:16.546  INFO [Trade-Account-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 09:15:16.837  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 09:15:16.837  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 09:15:16.838  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 09:15:16.838  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 09:15:16.838  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 09:15:16.839  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 09:15:16.839  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 09:15:17.082  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 09:15:17.087  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 09:15:17.092  INFO [Trade-Account-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 09:15:17.098  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593834317097 with initial instances count: 7
+2020-07-04 09:15:17.120  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593834317120, current=UP, previous=STARTING]
+2020-07-04 09:15:17.128  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:15:17.177  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:15:17.733  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 09:15:17.754  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 09:15:17.803  INFO [Trade-Account-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 09:15:18.053  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:61]-Started AccountTradeServiceApplicationIntTests in 17.908 seconds (JVM running for 20.616)
+2020-07-04 09:15:18.639  INFO [Trade-Account-Service,6ab96e98ab00ff72,,6ab96e98ab00ff72,true]-INFO -AccountController-[Line:46]-Request For Update Account =AccountBean(accountId=6, customerId=1, accountNumber=101, accountName=wwwwww, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:15:18.798  INFO [Trade-Account-Service,6ab96e98ab00ff72,,6ab96e98ab00ff72,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7062}] to localhost:27017
+2020-07-04 09:15:18.912  INFO [Trade-Account-Service,6ab96e98ab00ff72,,6ab96e98ab00ff72,true]-INFO -AccountServiceImpl-[Line:74]-Response For Create Account =Account(accountId=6, customerId=1, accountNumber=101, accountName=wwwwww, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:15:18.978  WARN [Trade-Account-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593834318978, current=DOWN, previous=UP]
+2020-07-04 09:15:18.979  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:15:18.984  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:15:19.376  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7062}] to localhost:27017 because the pool has been closed.
+2020-07-04 09:15:20.386  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 09:15:23.391  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 09:15:23.401  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - deregister  status: 200
+2020-07-04 09:15:23.429  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 09:15:41.338  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 09:15:47.266  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 09:15:47.382  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7064}] to localhost:27017
+2020-07-04 09:15:47.391  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5159900}
+2020-07-04 09:15:49.264  INFO [Trade-Account-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 09:15:49.366  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:15:49.367  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:15:49.378  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:15:49.379  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:15:54.121  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 09:15:54.210  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 09:15:54.211  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 09:15:54.415  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 09:15:54.415  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 09:15:54.695  INFO [Trade-Account-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 09:15:54.994  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 09:15:54.995  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 09:15:54.995  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 09:15:54.996  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 09:15:54.996  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 09:15:54.997  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 09:15:54.997  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 09:15:55.226  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 09:15:55.229  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 09:15:55.232  INFO [Trade-Account-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 09:15:55.237  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593834355235 with initial instances count: 7
+2020-07-04 09:15:55.253  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593834355253, current=UP, previous=STARTING]
+2020-07-04 09:15:55.257  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:15:55.323  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:15:55.908  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 09:15:55.927  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 09:15:55.979  INFO [Trade-Account-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 09:15:56.276  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:61]-Started AccountTradeServiceApplicationIntTests in 17.857 seconds (JVM running for 20.17)
+2020-07-04 09:15:56.748  INFO [Trade-Account-Service,ad3aaf9513cd7299,,ad3aaf9513cd7299,true]-INFO -AccountController-[Line:58]-Request For Delete Of Account =6
+2020-07-04 09:15:56.880  INFO [Trade-Account-Service,ad3aaf9513cd7299,,ad3aaf9513cd7299,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7065}] to localhost:27017
+2020-07-04 09:15:56.958  INFO [Trade-Account-Service,ad3aaf9513cd7299,,ad3aaf9513cd7299,true]-INFO -AccountServiceImpl-[Line:116]-Get Account For Delete =Account(accountId=6, customerId=1, accountNumber=101, accountName=wwwwww, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:15:57.050  INFO [Trade-Account-Service,ad3aaf9513cd7299,,ad3aaf9513cd7299,true]-INFO -AccountServiceImpl-[Line:119]-Delete Account =Account(accountId=6, customerId=1, accountNumber=101, accountName=wwwwww, accountType=1, accountBalance=100000, accountStatus=0, accountRemarks=remarks)
+2020-07-04 09:15:57.606  INFO [Trade-Account-Service,6de45c7f2604c8d7,,6de45c7f2604c8d7,true]-INFO -AccountController-[Line:40]-Request For Create Account =AccountBean(accountId=0, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:15:57.713  INFO [Trade-Account-Service,6de45c7f2604c8d7,,6de45c7f2604c8d7,true]-INFO -AccountServiceImpl-[Line:64]-Request For Sequence For Customer
+2020-07-04 09:15:57.771  INFO [Trade-Account-Service,6de45c7f2604c8d7,,6de45c7f2604c8d7,true]-INFO -AccountServiceImpl-[Line:67]-Response From Sequence For Account Id = 7
+2020-07-04 09:15:57.776  INFO [Trade-Account-Service,6de45c7f2604c8d7,,6de45c7f2604c8d7,true]-INFO -AccountServiceImpl-[Line:70]-Response For Create Account =Account(accountId=7, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:15:57.812  INFO [Trade-Account-Service,6b4aa1e691e93242,,6b4aa1e691e93242,true]-INFO -AccountController-[Line:46]-Request For Update Account =AccountBean(accountId=6, customerId=1, accountNumber=101, accountName=wwwwww, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:15:57.832  INFO [Trade-Account-Service,6b4aa1e691e93242,,6b4aa1e691e93242,true]-INFO -AccountServiceImpl-[Line:74]-Response For Create Account =Account(accountId=6, customerId=1, accountNumber=101, accountName=wwwwww, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:15:57.852  WARN [Trade-Account-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593834357852, current=DOWN, previous=UP]
+2020-07-04 09:15:57.852  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:15:57.859  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:15:58.336  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7065}] to localhost:27017 because the pool has been closed.
+2020-07-04 09:15:58.707  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 09:16:01.712  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 09:16:01.718  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - deregister  status: 200
+2020-07-04 09:16:01.753  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 09:17:09.317  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 09:17:15.279  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 09:17:15.404  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7069}] to localhost:27017
+2020-07-04 09:17:15.416  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7721000}
+2020-07-04 09:17:17.420  INFO [Trade-Account-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 09:17:17.536  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:17:17.537  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:17:17.551  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:17:17.551  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:17:21.965  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 09:17:22.073  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 09:17:22.074  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 09:17:22.293  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 09:17:22.294  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 09:17:22.566  INFO [Trade-Account-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 09:17:22.888  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 09:17:22.889  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 09:17:22.890  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 09:17:22.890  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 09:17:22.891  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 09:17:22.892  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 09:17:22.892  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 09:17:23.174  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 09:17:23.177  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 09:17:23.185  INFO [Trade-Account-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 09:17:23.191  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593834443189 with initial instances count: 7
+2020-07-04 09:17:23.208  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593834443208, current=UP, previous=STARTING]
+2020-07-04 09:17:23.212  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:17:23.263  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:17:23.836  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 09:17:23.859  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 09:17:23.923  INFO [Trade-Account-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 09:17:24.209  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:61]-Started AccountTradeServiceApplicationIntTests in 17.856 seconds (JVM running for 19.98)
+2020-07-04 09:17:24.891  INFO [Trade-Account-Service,16a9f10f681e83ef,,16a9f10f681e83ef,true]-INFO -AccountController-[Line:40]-Request For Create Account =AccountBean(accountId=0, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:17:25.055  INFO [Trade-Account-Service,16a9f10f681e83ef,,16a9f10f681e83ef,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7070}] to localhost:27017
+2020-07-04 09:17:25.137  INFO [Trade-Account-Service,16a9f10f681e83ef,,16a9f10f681e83ef,true]-INFO -AccountServiceImpl-[Line:64]-Request For Sequence For Customer
+2020-07-04 09:17:25.195  INFO [Trade-Account-Service,16a9f10f681e83ef,,16a9f10f681e83ef,true]-INFO -AccountServiceImpl-[Line:67]-Response From Sequence For Account Id = 8
+2020-07-04 09:17:25.262  INFO [Trade-Account-Service,16a9f10f681e83ef,,16a9f10f681e83ef,true]-INFO -AccountServiceImpl-[Line:70]-Response For Create Account =Account(accountId=8, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:17:25.342  WARN [Trade-Account-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593834445341, current=DOWN, previous=UP]
+2020-07-04 09:17:25.343  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:17:25.353  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:17:25.721  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7070}] to localhost:27017 because the pool has been closed.
+2020-07-04 09:17:26.708  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 09:17:29.712  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 09:17:29.720  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - deregister  status: 200
+2020-07-04 09:17:29.747  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 09:18:11.428  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 09:18:17.535  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 09:18:17.675  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7073}] to localhost:27017
+2020-07-04 09:18:17.691  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=11475600}
+2020-07-04 09:18:19.810  INFO [Trade-Account-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 09:18:19.911  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:18:19.911  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:18:19.920  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:18:19.921  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:18:24.198  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 09:18:24.293  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 09:18:24.294  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 09:18:24.575  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 09:18:24.576  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 09:18:24.911  INFO [Trade-Account-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 09:18:25.268  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 09:18:25.269  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 09:18:25.270  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 09:18:25.270  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 09:18:25.271  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 09:18:25.274  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 09:18:25.276  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 09:18:25.552  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 09:18:25.561  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 09:18:25.565  INFO [Trade-Account-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 09:18:25.572  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593834505570 with initial instances count: 7
+2020-07-04 09:18:25.594  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593834505594, current=UP, previous=STARTING]
+2020-07-04 09:18:25.598  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:18:25.660  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:18:26.290  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 09:18:26.309  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 09:18:26.372  INFO [Trade-Account-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 09:18:26.622  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:61]-Started AccountTradeServiceApplicationIntTests in 18.009 seconds (JVM running for 20.185)
+2020-07-04 09:18:27.075  INFO [Trade-Account-Service,4bd766a0b9fefa6f,,4bd766a0b9fefa6f,true]-INFO -AccountController-[Line:58]-Request For Delete Of Account =9
+2020-07-04 09:18:27.172  INFO [Trade-Account-Service,4bd766a0b9fefa6f,,4bd766a0b9fefa6f,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7074}] to localhost:27017
+2020-07-04 09:18:27.203  INFO [Trade-Account-Service,4bd766a0b9fefa6f,,4bd766a0b9fefa6f,true]-INFO -AccountServiceImpl-[Line:116]-Get Account For Delete =null
+2020-07-04 09:18:27.204 ERROR [Trade-Account-Service,4bd766a0b9fefa6f,,4bd766a0b9fefa6f,true]-ERROR-AccountServiceImpl-[Line:126]-null
+2020-07-04 09:18:27.470  INFO [Trade-Account-Service,f84b0459277aae66,,f84b0459277aae66,true]-INFO -AccountController-[Line:40]-Request For Create Account =AccountBean(accountId=0, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:18:27.597  INFO [Trade-Account-Service,f84b0459277aae66,,f84b0459277aae66,true]-INFO -AccountServiceImpl-[Line:64]-Request For Sequence For Customer
+2020-07-04 09:18:27.647  INFO [Trade-Account-Service,f84b0459277aae66,,f84b0459277aae66,true]-INFO -AccountServiceImpl-[Line:67]-Response From Sequence For Account Id = 9
+2020-07-04 09:18:27.706  INFO [Trade-Account-Service,f84b0459277aae66,,f84b0459277aae66,true]-INFO -AccountServiceImpl-[Line:70]-Response For Create Account =Account(accountId=9, customerId=1, accountNumber=10100, accountName=accountname, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:18:27.728  INFO [Trade-Account-Service,c80a0fa9daae91b4,,c80a0fa9daae91b4,true]-INFO -AccountController-[Line:46]-Request For Update Account =AccountBean(accountId=9, customerId=1, accountNumber=101, accountName=krunal, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:18:27.736  INFO [Trade-Account-Service,c80a0fa9daae91b4,,c80a0fa9daae91b4,true]-INFO -AccountServiceImpl-[Line:74]-Response For Create Account =Account(accountId=9, customerId=1, accountNumber=101, accountName=krunal, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:18:27.748  WARN [Trade-Account-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593834507748, current=DOWN, previous=UP]
+2020-07-04 09:18:27.749  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:18:27.755  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:18:28.052  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7074}] to localhost:27017 because the pool has been closed.
+2020-07-04 09:18:28.766  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 09:18:31.770  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 09:18:31.777  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - deregister  status: 200
+2020-07-04 09:18:31.799  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
+2020-07-04 09:19:28.379  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:651]-No active profile set, falling back to default profiles: default
+2020-07-04 09:19:34.218  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-04 09:19:34.329  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:1, serverValue:7077}] to localhost:27017
+2020-07-04 09:19:34.346  INFO [Trade-Account-Service,,,,]-INFO -cluster-[Line:71]-Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5443200}
+2020-07-04 09:19:36.174  INFO [Trade-Account-Service,,,,]-INFO -PropertySourcedRequestMappingHandlerMapping-[Line:69]-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-04 09:19:36.258  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:19:36.259  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:19:36.269  WARN [Trade-Account-Service,,,,]-WARN -URLConfigurationSource-[Line:121]-No URLs will be polled as dynamic configuration sources.
+2020-07-04 09:19:36.270  INFO [Trade-Account-Service,,,,]-INFO -URLConfigurationSource-[Line:122]-To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-04 09:19:41.044  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:371]-Initializing Eureka in region us-east-1
+2020-07-04 09:19:41.151  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:70]-Using JSON encoding codec LegacyJacksonJson
+2020-07-04 09:19:41.151  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:71]-Using JSON decoding codec LegacyJacksonJson
+2020-07-04 09:19:41.385  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:80]-Using XML encoding codec XStreamXml
+2020-07-04 09:19:41.385  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryJerseyProvider-[Line:81]-Using XML decoding codec XStreamXml
+2020-07-04 09:19:41.613  INFO [Trade-Account-Service,,,,]-INFO -ConfigClusterResolver-[Line:43]-Resolving eureka endpoints via configuration
+2020-07-04 09:19:41.889  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:988]-Disable delta property : false
+2020-07-04 09:19:41.890  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:989]-Single vip registry refresh property : null
+2020-07-04 09:19:41.891  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:990]-Force full registry fetch : false
+2020-07-04 09:19:41.891  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:991]-Application is null : false
+2020-07-04 09:19:41.892  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:992]-Registered Applications size is zero : true
+2020-07-04 09:19:41.892  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:994]-Application version is -1: true
+2020-07-04 09:19:41.893  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1077]-Getting all instance registry info from the eureka server
+2020-07-04 09:19:42.192  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1086]-The response status is 200
+2020-07-04 09:19:42.196  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1301]-Starting heartbeat executor: renew interval is: 30
+2020-07-04 09:19:42.200  INFO [Trade-Account-Service,,,,]-INFO -InstanceInfoReplicator-[Line:60]-InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-04 09:19:42.205  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:475]-Discovery Client initialized at timestamp 1593834582204 with initial instances count: 7
+2020-07-04 09:19:42.220  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:1337]-Saw local status change event StatusChangeEvent [timestamp=1593834582220, current=UP, previous=STARTING]
+2020-07-04 09:19:42.225  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:19:42.274  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:19:42.765  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:160]-Context refreshed
+2020-07-04 09:19:42.787  INFO [Trade-Account-Service,,,,]-INFO -DocumentationPluginsBootstrapper-[Line:163]-Found 1 custom documentation plugin(s)
+2020-07-04 09:19:42.836  INFO [Trade-Account-Service,,,,]-INFO -ApiListingReferenceScanner-[Line:41]-Scanning for api listing references
+2020-07-04 09:19:43.092  INFO [Trade-Account-Service,,,,]-INFO -AccountTradeServiceApplicationIntTests-[Line:61]-Started AccountTradeServiceApplicationIntTests in 17.833 seconds (JVM running for 20.384)
+2020-07-04 09:19:43.479  INFO [Trade-Account-Service,054acca5887c17ce,,054acca5887c17ce,true]-INFO -AccountController-[Line:58]-Request For Delete Of Account =9
+2020-07-04 09:19:43.571  INFO [Trade-Account-Service,054acca5887c17ce,,054acca5887c17ce,true]-INFO -connection-[Line:71]-Opened connection [connectionId{localValue:2, serverValue:7079}] to localhost:27017
+2020-07-04 09:19:43.632  INFO [Trade-Account-Service,054acca5887c17ce,,054acca5887c17ce,true]-INFO -AccountServiceImpl-[Line:116]-Get Account For Delete =Account(accountId=9, customerId=1, accountNumber=101, accountName=krunal, accountType=1, accountBalance=100000, accountStatus=1, accountRemarks=remarks)
+2020-07-04 09:19:43.678  INFO [Trade-Account-Service,054acca5887c17ce,,054acca5887c17ce,true]-INFO -AccountServiceImpl-[Line:119]-Delete Account =Account(accountId=9, customerId=1, accountNumber=101, accountName=krunal, accountType=1, accountBalance=100000, accountStatus=0, accountRemarks=remarks)
+2020-07-04 09:19:43.750  WARN [Trade-Account-Service,,,,]-WARN -DiscoveryClient-[Line:1335]-Saw local status change event StatusChangeEvent [timestamp=1593834583750, current=DOWN, previous=UP]
+2020-07-04 09:19:43.752  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:854]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0: registering service...
+2020-07-04 09:19:43.779  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:863]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - registration status: 204
+2020-07-04 09:19:44.142  INFO [Trade-Account-Service,,,,]-INFO -connection-[Line:71]-Closed connection [connectionId{localValue:2, serverValue:7079}] to localhost:27017 because the pool has been closed.
+2020-07-04 09:19:45.150  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:916]-Shutting down DiscoveryClient ...
+2020-07-04 09:19:48.154  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:952]-Unregistering ...
+2020-07-04 09:19:48.161  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:954]-DiscoveryClient_TRADE-ACCOUNT-SERVICE/host.docker.internal:Trade-Account-Service:0 - deregister  status: 200
+2020-07-04 09:19:48.178  INFO [Trade-Account-Service,,,,]-INFO -DiscoveryClient-[Line:941]-Completed shut down of DiscoveryClient
